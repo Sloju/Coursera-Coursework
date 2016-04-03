@@ -1,0 +1,134 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #1affb2;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #4d4dff;
+	border-radius: 0;
+	border: 0;
+}
+
+/** Brand Name **/
+.container {
+	float: left;
+	width: 100%;
+}
+
+a {
+	color: #000000;
+	font-size: 40px;
+}
+
+/** Main Pagee **/
+
+h1 {
+	color: #000000;
+	font-size: 30px;
+	font-style: bold;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.container-fluid {
+  
+  background-color: #666699;
+  border: 1px solid black;
+  height: 1800px;
+  width: 95%;
+  }
+
+
+h2 {
+  font-size: 25px;
+  font-style: bold;
+  margin-top: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 10px;
+}
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #ffff99;
+    border: 2px solid black;
+    visibility: hidden;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #ffff99;
+    border: 2px solid black;
+    visibility: hidden;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #ffff99;
+    border: 2px solid black;
+    visibility: hidden;
+    	}
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+	}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #ffff99;
+    border: 2px solid black;
+    margin-top: -5px;
+
+  }
+
+
+}
